@@ -1,0 +1,7 @@
+Go To : -> https://go.dev/doc/install
+Click on Download
+Select the version to download
+It will download a MSI file
+Double clcik and install
+Open Command prompt and run $go version
+If this returns the version number then Go in installed.
