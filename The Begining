@@ -1,7 +1,4 @@
-Go To : -> https://go.dev/doc/install
-Click on Download
-Select the version to download
-It will download a MSI file
-Double clcik and install
-Open Command prompt and run $go version
-If this returns the version number then Go in installed.
+React can help in developing web applications in a declarative way. Generally it has many functions that can help manipulating DOM.
+Lets take an example of it. 
+The task is to add a H1 tag inside a div tag with text Hello React World!
+In Normal JS you have to work on Dom Manupulation as explained in NormalJS.html page.
