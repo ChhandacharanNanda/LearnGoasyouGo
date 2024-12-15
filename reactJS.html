@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Start React</title>
+</head>
+<body>
+    <p>This is normal P tag content</p>
+    <div id="app"></div>>
+    <!--React Script-->>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!--Babel Script-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+        const domeNode = document.getElementById('app');
+        const root = ReactDOM.createRoot(domeNode);
+        root.render(<h1>Hello React World!</h1>);
+    </script>
+
+</body>
+</html>
